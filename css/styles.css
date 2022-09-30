@@ -14,7 +14,7 @@
 
 body {
     font-family: 'Roboto';
-    color: var(--base-color)
+    color: var(--base-color);
     background-color:var(--portfolio-color);
     ;
 }
@@ -65,9 +65,9 @@ body {
 
 .hero-title {
     font-family: 'Roboto';
-    font-style: 400;
+    font-style: normal;
     font-weight: 900;
-    line-height: 1, 36;
+    line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--attribute-color);

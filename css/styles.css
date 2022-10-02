@@ -8,8 +8,6 @@
     --contacts-color: rgba(255, 255, 255, 0.6);
     --button-color: #F5F4FA;
     --portfolio-color: #F5F5F5;
-
-
 }
 
 body {
@@ -51,19 +49,25 @@ body {
     line-height: 1.19;
     color: var(--attribute-color)
 }
-.list-style{
-    list-style-type: none;
-}
 .link {
     text-decoration: none;
-    color:var(--base-color)
+    color: var(--base-color);
+}
+.site-nav-list{
+    list-style: none;
 }
 .link:hover{
     color: var(--additional-color);
 }
 .link:focus
 
-.link-mail{
+.link:current{
+   color: var(--additional-color);
+}
+
+
+
+.mail{
     text-decoration: none;
  color: var(--text-color)
 }
@@ -84,9 +88,13 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
 .select-button {
+    font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
     line-height: 1.63;
     letter-spacing: 0.03em;
     background-color: var(--button-color);
@@ -131,6 +139,7 @@ body {
     background-color: var(--button-color);
 }
 .person-title{
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -166,6 +175,7 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--base-color);
 }
 .work-title{
     font-weight: 400;

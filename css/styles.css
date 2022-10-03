@@ -18,11 +18,9 @@ body {
     background-color:var(--portfolio-color);
     
 }
-
 .opening-section {
     background-color: var(--attribute-color);
 }
-
 .logo{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -50,6 +48,10 @@ body {
     color: var(--attribute-color)
 }
 .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
     text-decoration: none;
     color: var(--base-color);
 }
@@ -65,16 +67,21 @@ body {
    color: var(--additional-color);
 }
 
-
-
-.mail{
+.link-mail{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     text-decoration: none;
- color: var(--text-color)
+    color:var(--text-color);
 }
-.hero-section {
+.link-mail:hover{
+    color: var(--additional-color);
+}
+.link-mail:focus
+.hero-section{
     background-color: var(--section-color);
 }
-.hero-title {
+.hero-title{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -82,18 +89,21 @@ body {
     text-transform: uppercase;
     color: var(--attribute-color);
 }
+
 .button {
-    background-color: var(--additional-color);
-    color: var(--attribute-color);
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    background-color: var(--additional-color);
+    color: var(--attribute-color);
     cursor: pointer;
 }
 .select-button {
     font-family:'Roboto',sans-serif;
     font-style: normal;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.63;
     letter-spacing: 0.03em;
@@ -151,9 +161,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
-.contacts-section{
-    background-color: var(--section-color)
-}
+
 .link-map{
     font-style: normal;
     font-weight: 400;
@@ -183,4 +191,7 @@ body {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--text-color);
+}
+.footer-color{
+    background-color: var(--section-color);
 }

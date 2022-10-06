@@ -53,26 +53,27 @@ a{
 
 }
 .link {
+text-decoration: none;
+}
+.nav-titles {
 font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0.02em;
+    font-size: 14px;
+ letter-spacing: 0.02em;
     line-height: 1.14;
     color: var(--base-color);
 }
-.link:hover,:focus {
+.nav-titles:hover, .nav-titles:focus {
     color: var(--additional-color);
 }
 .link-contacts{
 font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+ font-weight: 500;
     line-height: 1.14;
     letter-spacing:0.02em;
     color:var(--text-color);
 }
 
-.link-contacts:hover,:focus{
+.link-contacts:hover,.link-contacts:focus{
     color: var(--additional-color);
 }
 .link-footer{
@@ -83,7 +84,7 @@ font-family: 'Roboto';
        letter-spacing: 0.03em;
     color: var(--contacts-color);
 }
-.link-footer:hover,:focus{
+.link-footer:hover,.link-footer:focus{
     color: var(--additional-color);
 }
 .list{
@@ -97,7 +98,7 @@ font-family: 'Roboto';
 .hero-section{
     background-color: var(--section-color);
 }
-.link-map {
+.link-map{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -127,13 +128,13 @@ font-family: 'Roboto';
     color: var(--attribute-color);
     cursor: pointer;
 }
-.button:hover,:focus{
+.button:hover,.button:focus{
     background-color:var(--button-active);
 }
 
 .select-button {
     font-family:inherit;
-    font-style: normal;
+
     font-size: 16px;
     font-weight: 500;
     line-height: 1.63;
@@ -142,7 +143,7 @@ font-family: 'Roboto';
     color: var(--base-color);
     cursor: pointer;
 }
-.select-button:hover,:focus {
+.select-button:hover,.select-button:focus {
     background-color: var(--additional-color);
     color: var(--attribute-color);
 }
@@ -157,24 +158,30 @@ font-family: 'Roboto';
     clip: rect(0 0 0 0);
 }
 .features-title {
+    font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .discription {
+    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--text-color);
 }
+.section-team {
+    background-color:var(--button-color);
+}
 .section-title{
+    font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 }
-.team-section {
-background-color: var(--button-color);
+.team{
+background-color: var(--attribute-color);
 }
 .person-title{
 font-size: 16px;
@@ -182,7 +189,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 }
 .post-title {
-
+font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -190,14 +197,14 @@ color: var(--text-color);
 }
 
 .project-title{
-
+font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--base-color);
 }
 .work-title{
-   
+   font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
